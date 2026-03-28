@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "979530283005",
-    "project_id": "jet10-app",
-    "storage_bucket": "jet10-app.firebasestorage.app"
+    "project_number": "498356049581",
+    "project_id": "jet10app",
+    "storage_bucket": "jet10app.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:979530283005:android:2cf000600e95e18ace8b94",
+        "mobilesdk_app_id": "1:498356049581:android:25c5bc1993dbf2b0e7d824",
         "android_client_info": {
           "package_name": "com.example.jet10"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAAbe5BzOTGKBhjvHQcJ5gyVI5fX8I0opU"
+          "current_key": "AIzaSyALX5F3msktM2clkhqJQxIWtlyLE-GJj6I"
         }
       ],
       "services": {

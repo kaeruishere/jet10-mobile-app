@@ -41,20 +41,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyASRCqYbe4DNPvmuwGydbd12fEhKMpBacE',
-    appId: '1:979530283005:web:af81c962be5bc42dce8b94',
-    messagingSenderId: '979530283005',
-    projectId: 'jet10-app',
-    authDomain: 'jet10-app.firebaseapp.com',
-    storageBucket: 'jet10-app.firebasestorage.app',
+    apiKey: 'AIzaSyBJd5JXy9mLTU43pj9guXdeVi-7pr7wpEY',
+    appId: '1:498356049581:web:2f185239ab2303cee7d824',
+    messagingSenderId: '498356049581',
+    projectId: 'jet10app',
+    authDomain: 'jet10app.firebaseapp.com',
+    storageBucket: 'jet10app.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAAbe5BzOTGKBhjvHQcJ5gyVI5fX8I0opU',
-    appId: '1:979530283005:android:2cf000600e95e18ace8b94',
-    messagingSenderId: '979530283005',
-    projectId: 'jet10-app',
-    storageBucket: 'jet10-app.firebasestorage.app',
+    apiKey: 'AIzaSyALX5F3msktM2clkhqJQxIWtlyLE-GJj6I',
+    appId: '1:498356049581:android:25c5bc1993dbf2b0e7d824',
+    messagingSenderId: '498356049581',
+    projectId: 'jet10app',
+    storageBucket: 'jet10app.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
