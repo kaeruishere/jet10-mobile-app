@@ -1,0 +1,93 @@
+/* neon-shared.css — Common base styles for all Neon games */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+:root {
+  --neon-bg:      #0a0014;
+  --neon-cyan:    #00f2fe;
+  --neon-magenta: #ff2d78;
+  --neon-yellow:  #ffe94d;
+  --neon-green:   #39ff14;
+  --neon-purple:  #b224ef;
+  --neon-orange:  #ff7b00;
+  --neon-pink:    #ff6eb4;
+  --neon-blue:    #4facfe;
+  --neon-white:   #ffffff;
+  --neon-font:    'Orbitron', monospace;
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+body, html {
+  width:100%; height:100%; overflow:hidden;
+  background: var(--neon-bg);
+  font-family: var(--neon-font);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ── Grid background ── */
+body::before {
+  content:''; position:fixed; inset:0; pointer-events:none;
+  background-image:
+    linear-gradient(rgba(0,242,254,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,242,254,.04) 1px, transparent 1px);
+  background-size: 38px 38px;
+}
+
+/* ── Shared overlay / screen ── */
+.neon-screen {
+  position: fixed; inset:0;
+  display: flex; flex-direction:column; align-items:center; justify-content:center;
+  gap: 16px;
+  background: rgba(10,0,20,.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  opacity:0; transform:scale(.93);
+  transition: opacity .35s, transform .35s, visibility .35s;
+  visibility: hidden;
+}
+.neon-screen.active {
+  opacity:1; transform:scale(1); visibility:visible;
+}
+
+/* ── Shared button ── */
+.neon-btn {
+  padding: 14px 48px;
+  border: none; border-radius: 99px;
+  font-family: var(--neon-font);
+  font-size: clamp(.8rem,3.5vw,1rem);
+  font-weight: 700; letter-spacing: 4px;
+  color: #fff; cursor: pointer;
+  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
+  box-shadow: 0 0 28px rgba(0,242,254,.3);
+  transition: transform .15s;
+}
+.neon-btn:active { transform: scale(.93); }
+
+/* ── Title utility ── */
+.neon-title {
+  font-size: clamp(2.5rem,12vw,4.5rem);
+  font-weight: 900; text-align:center; line-height:1.05;
+  background: linear-gradient(135deg, var(--neon-cyan) 0%, var(--neon-purple) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 24px rgba(0,242,254,.4));
+}
+
+/* ── HUD ── */
+.neon-hud {
+  position: fixed; top:0; left:0; right:0;
+  display:flex; justify-content:space-between;
+  padding: 14px 20px; pointer-events:none;
+}
+.neon-hud-block { display:flex; flex-direction:column; align-items:center; gap:2px; }
+.neon-hud-label { font-size:.48rem; letter-spacing:4px; color:rgba(255,255,255,.4); }
+.neon-hud-val   { font-size:1.4rem; font-weight:700; color:#fff; text-shadow:0 0 12px var(--neon-cyan); }
+
+/* ── Difficulty badge ── */
+.neon-diff-badge {
+  position:fixed; bottom:14px; right:16px;
+  font-size:.5rem; letter-spacing:3px;
+  color:rgba(255,255,255,.3); pointer-events:none;
+}

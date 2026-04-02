@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Neon Tiles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+    </div>
+
+    <div id="ui-layer">
+        <div id="hud">
+            <div id="score-display">0</div>
+        </div>
+    </div>
+
+    <div id="touch-controls">
+        <div class="touch-lane" data-lane="0"></div>
+        <div class="touch-lane" data-lane="1"></div>
+        <div class="touch-lane" data-lane="2"></div>
+        <div class="touch-lane" data-lane="3"></div>
+    </div>
+
+    <script src="../shared/neon-menu.js"></script>
+    <script src="../shared/neon-shared.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

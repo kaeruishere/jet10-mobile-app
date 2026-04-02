@@ -1,36 +1,40 @@
-name: jet10
-description: Jeton kazan, oyunları aç!
-publish_to: 'none'
+name: JET10
+description: "A new Flutter project."
+publish_to: 'none' 
+
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ^3.11.3
 
 dependencies:
   flutter:
     sdk: flutter
-
-  # Firebase
-  firebase_core: ^3.1.0
-  firebase_auth: ^5.1.0
-  cloud_firestore: ^5.1.0
-
-  # WebView
-  webview_flutter: ^4.7.0
-
-  # UI & Utils
-  google_fonts: ^6.2.1
-  cached_network_image: ^3.3.1
-  shared_preferences: ^2.2.3
-  lottie: ^3.1.0
-  animate_do: ^3.3.4
+  google_mobile_ads: ^5.1.0
+  cupertino_icons: ^1.0.8
+  flutter_inappwebview: ^6.1.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/images/
+    - assets/oyunlar/Breaker/
+    - assets/oyunlar/ChopChop/
+    - assets/oyunlar/Dart/
+    - assets/oyunlar/Dash/
+    - assets/oyunlar/Helix/
+    - assets/oyunlar/Roller/
+    - assets/oyunlar/Snake/
+    - assets/oyunlar/Sort/
+    - assets/oyunlar/ColorBall/
+    - assets/oyunlar/Tiles/
+    - assets/oyunlar/Tower/
+    - assets/oyunlar/StickMaster/
+    - assets/oyunlar/ZigZag/
+    - assets/oyunlar/shared/

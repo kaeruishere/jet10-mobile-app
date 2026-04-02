@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Neon Sort</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="ui">
+  <div id="hud">
+    <div class="hud-block"><div class="hud-label">LEVEL</div><div class="hud-val" id="h-level">1</div></div>
+    <div class="hud-block"><div class="hud-label">MOVES</div><div class="hud-val" id="h-moves">0</div></div>
+  </div>
+
+
+
+  <div id="win-screen" class="overlay">
+    <h2 class="win-title">SORTED!</h2>
+    <div class="win-stat" id="win-moves"></div>
+    <button id="next-btn" class="btn">NEXT LEVEL</button>
+  </div>
+</div>
+
+<div id="btns">
+  <button id="undo-btn" class="icon-btn" title="Undo">↩</button>
+  <button id="restart-btn" class="icon-btn" title="Restart">↺</button>
+</div>
+
+<script src="../shared/neon-menu.js"></script>
+    <script src="../shared/neon-shared.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

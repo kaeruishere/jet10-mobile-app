@@ -8,7 +8,7 @@
 PRODUCT_NAME = jet10
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.jet10
+PRODUCT_BUNDLE_IDENTIFIER = com.kaeru.jet10
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2026 com.example. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2026 com.kaeru. All rights reserved.

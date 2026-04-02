@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Stack 2D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+    </div>
+
+    <div id="ui-layer">
+        <div id="hud">
+            <div class="hud-item">
+                <span class="hud-label">SCORE</span>
+                <span class="hud-value" id="score-display">0</span>
+            </div>
+            <div class="hud-item right">
+                <span class="hud-label">BEST</span>
+                <span class="hud-value" id="hud-best-score">0</span>
+            </div>
+        </div>
+
+        <div id="combo-display"></div>
+        <div id="perfect-banner">PERFECT!</div>
+    </div>
+    <script src="../shared/neon-menu.js"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
