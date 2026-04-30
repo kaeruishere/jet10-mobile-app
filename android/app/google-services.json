@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "743245476829",
+    "project_id": "kaeru-jet10-app",
+    "storage_bucket": "kaeru-jet10-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743245476829:android:b7b496746c4b0f7b793c34",
+        "android_client_info": {
+          "package_name": "com.kaeru.jet10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743245476829-djslfgm3o289odv73ho8vqpaqrpv77bo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaeru.jet10",
+            "certificate_hash": "1555e8fb0ce7fda6492be8742e389eead2089197"
+          }
+        },
+        {
+          "client_id": "743245476829-k5c6u2ei81nbmdtrts8l9ud3pfpl0a9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaeru.jet10",
+            "certificate_hash": "4abbd2f37baf137a1f543730f3c10978eeb9a604"
+          }
+        },
+        {
+          "client_id": "743245476829-naold9p9hmh51tb6d04i7v8849k4pait.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaeru.jet10",
+            "certificate_hash": "745ac4aad68a1ae8add335b39b136f96c0d57f16"
+          }
+        },
+        {
+          "client_id": "743245476829-61s4gsp6qvusj3nau0p5tm5g44hfotsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfhJrfJcTC4FpJWJyOTzwML6_fO_XV_mU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743245476829-61s4gsp6qvusj3nau0p5tm5g44hfotsv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "743245476829-mhisub3talbc849aep2ng4cjkodhp8c8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kaeru.jet10"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

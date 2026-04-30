@@ -2,7 +2,7 @@ name: JET10
 description: "A new Flutter project."
 publish_to: 'none' 
 
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ^3.11.3
@@ -10,9 +10,27 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_fonts: ^6.2.1
   google_mobile_ads: ^5.1.0
   cupertino_icons: ^1.0.8
   flutter_inappwebview: ^6.1.5
+  firebase_core: ^4.7.0
+  firebase_crashlytics: ^5.0.2
+  firebase_analytics: ^12.0.2
+  firebase_performance: ^0.11.0+2
+  device_info_plus: ^11.5.0
+  cloud_firestore: ^6.3.0
+  shared_preferences: ^2.5.5
+  animated_flip_counter: ^0.3.4
+  shimmer: ^3.0.0
+  audioplayers: ^6.6.0
+  firebase_auth: ^6.4.0
+  firebase_messaging: ^16.2.0
+  flutter_local_notifications: ^21.0.0
+  url_launcher: ^6.3.1
+  cached_network_image: ^3.4.1
+  provider: ^6.1.5+1
+  google_sign_in: ^6.2.2
 
 dev_dependencies:
   flutter_test:
@@ -24,17 +42,5 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/oyunlar/Breaker/
-    - assets/oyunlar/ChopChop/
-    - assets/oyunlar/Dart/
-    - assets/oyunlar/Dash/
-    - assets/oyunlar/Helix/
-    - assets/oyunlar/Roller/
-    - assets/oyunlar/Snake/
-    - assets/oyunlar/Sort/
-    - assets/oyunlar/ColorBall/
-    - assets/oyunlar/Tiles/
-    - assets/oyunlar/Tower/
-    - assets/oyunlar/StickMaster/
-    - assets/oyunlar/ZigZag/
-    - assets/oyunlar/shared/
+    - assets/logo.png
+    - assets/audio/
