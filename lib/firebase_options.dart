@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_FIREBASE_API_KEY',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY', defaultValue: 'YOUR_FIREBASE_API_KEY'),
     appId: '1:743245476829:web:ba8a4af6e8c696e9793c34',
     messagingSenderId: '743245476829',
     projectId: 'kaeru-jet10-app',
@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_FIREBASE_API_KEY',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY', defaultValue: 'YOUR_FIREBASE_API_KEY'),
     appId: '1:743245476829:android:b7b496746c4b0f7b793c34',
     messagingSenderId: '743245476829',
     projectId: 'kaeru-jet10-app',
@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_FIREBASE_API_KEY',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY', defaultValue: 'YOUR_FIREBASE_API_KEY'),
     appId: '1:743245476829:ios:afca57e244fd5961793c34',
     messagingSenderId: '743245476829',
     projectId: 'kaeru-jet10-app',
@@ -67,7 +67,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'YOUR_FIREBASE_API_KEY',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY', defaultValue: 'YOUR_FIREBASE_API_KEY'),
     appId: '1:743245476829:ios:afca57e244fd5961793c34',
     messagingSenderId: '743245476829',
     projectId: 'kaeru-jet10-app',
@@ -76,7 +76,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'YOUR_FIREBASE_API_KEY',
+    apiKey: const String.fromEnvironment('FIREBASE_API_KEY', defaultValue: 'YOUR_FIREBASE_API_KEY'),
     appId: '1:743245476829:web:5df7f5f05e23478a793c34',
     messagingSenderId: '743245476829',
     projectId: 'kaeru-jet10-app',
