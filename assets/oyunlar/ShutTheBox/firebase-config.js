@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCA0Q50xOaAwaTl3Vd57Ln2xA3WoOCvZ_I",
+  apiKey: "YOUR_FIREBASE_API_KEY",
   authDomain: "shuttheboxapp-8bdae.firebaseapp.com",
   projectId: "shuttheboxapp-8bdae",
   storageBucket: "shuttheboxapp-8bdae.firebasestorage.app",
